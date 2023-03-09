@@ -2,15 +2,17 @@
 
 function b(){
 
-var tres,quatro,cinco,resu;
+var tres,quatro,cinco,resu
+
+um=document.getElementById('um').value
+dois=document.getElementById('dois').value
+tres= document.getElementById('tres').value
+quatro= document.getElementById('quatro').value
+cinco= document.getElementById('cinco').value
 
 
-tres= document.getElementById('tres').valor
-quatro= document.getElementById('quatro').valor
-cinco= document.getElementById('cinco').valor
+resu= (cinco * dois * quatro) /(tres* um);
 
-resu= quatro*cinco /tres;
-
-alert(resu);
+alert("X="+resu);
 
 }
